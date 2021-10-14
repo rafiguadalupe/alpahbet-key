@@ -32,7 +32,7 @@ function my_keydown(e)
 		{
 aplhabetkey();
 document.getElementById("d1").innerHTML="You pressed alphabet key";
-console.log("aphabet key")
+console.log("aphabet key");
 
 		}
 	else{
@@ -43,6 +43,8 @@ console.log("aphabet key")
 
 function aplhabetkey()
 {
+	img_image="alpkey.png";
+	add();
 	//upload respective image with the message. 
 
 }
